@@ -16,6 +16,12 @@ final class CalculateTest extends TestCase{
 		$this->assertEquals(  $calculate->divide(5,0), "Error Division entre 0" );
 	}
 
+	public function testDivide():void{
+
+		$calculate=new Calculate();
+		$this->assertEquals(  $calculate->divide(10,2), 5);
+	}
+
 	public function testarrayAdded():void{
 		$calculate=new Calculate();
 		$array=[];
