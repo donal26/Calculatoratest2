@@ -19,7 +19,7 @@ final class CalculateTest extends TestCase{
 	public function testDividee():void{
 
 		$calculate=new Calculate();
-		$this->assertEquals(  $calculate->divide(10,2), 5);
+		$this->assertEquals(  $calculate->divide(12,3), 4);
 	}
 
 	public function testarrayAdded():void{
