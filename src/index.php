@@ -5,5 +5,5 @@ include("calculate.php");
 
 $calculate = new Calculate();
 $suma=$calculate->add(5,4);
-print($suma);
+echo($suma);
 ?>
